@@ -1,0 +1,108 @@
+html.options {
+	background-color: #56CBF9;
+}
+
+html.popup {
+	background-color: #77216F;
+	background-color: #56CBF9;
+}
+
+html.options body {
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html.options h1,p,h2 {
+	color: #fff;
+}
+
+html.options h1 {
+	font-size: 2rem;
+	margin-bottom: 0;
+}
+
+html.options h2 {
+	font-weight: normal;
+}
+
+html.options #container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	-webkit-flex-direction: column;
+					flex-direction: column;
+
+}
+
+html.options input {
+	padding: 6px 10px;
+	border: none;
+	width: 200px;
+	height: 25px;
+}
+
+html.options .submit {
+	background-color: #444;
+	padding: 8.5px 15px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+}
+
+html.options .column {
+	flex-direction: row;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	align-items: center;
+}
+
+html.options .date-input {
+	font-family: inherit;
+}
+
+html.popup body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 420px;
+}
+
+html.popup h1,p,h2,h3 {
+	color: #fff;
+}
+
+html.popup h2 {
+	font-weight: normal;
+}
+
+html.popup  #container {
+	height: 150px;
+	padding: 1em 2em;
+	text-align: center;
+	position: relative;
+}
+
+html.popup .close {
+	position: absolute;
+	right: 7px;
+	top: 2px;
+	font-size: 1.25rem;
+	cursor: pointer;
+	line-height: 0.75;
+}
+
+html.popup .options-link {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+a {
+	color: #fff;
+}
